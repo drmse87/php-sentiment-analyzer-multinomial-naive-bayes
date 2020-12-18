@@ -1,0 +1,66 @@
+:root {
+    color: #2D3142;
+    font-family: Quicksand;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/Quicksand-Regular.ttf);
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a, input {
+    border-right:0;
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 2px solid #EF8354;
+    background-color: white;
+    color: #4F5D75;
+    padding: 15px;
+}
+
+a:hover, input:hover {
+    border-bottom: 2px solid #BFC0C0;    
+}
+
+a, input[type="submit"], input[type="button"] {
+    margin: 5px;
+    text-transform: uppercase;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+}
+
+textarea {
+    font-family: inherit;
+    resize: none;
+    height: 300px;
+    width: 100%;
+}
+
+.container {
+    background-image: linear-gradient(to right, #BFC0C0 , #FFFFFF);
+    padding: 30px;
+}
+
+.negative {
+    color: red;
+}
+
+.positive {
+    color: green;
+}
